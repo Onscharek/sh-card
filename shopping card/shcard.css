@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens */
+  }
+  
+  /* CSS for medium screens */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+  }
+  
+  /* CSS for large screens */
+  @media only screen and (min-width: 1025px) {
+    /* Styles for large screens */
+  }
+  
+body{background-image: url(./a00d9586128681.5d909dad4cde9.jpg);}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{ font-size: large; font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+#navbarNav  {margin-left: 35%;}
+                                           
+.row {margin-top: 20px;}
+#tr{margin-right: 40px;}
+#tr:hover{color: rgb(120, 25, 203);width:  20%;}
+#like{margin-left: 40px; 
+}
+#like:hover{color: #dc0909;width:  20%;;}
+
+.crd {background-color: rgba(0, 0, 0, 0.228); margin-left: 15%; margin-right: 10%;}
+i{margin-left: 5%;}
+b{margin-right: 5%;}
+b:hover{ color: blue;    transition: transform 0.3s ease; transform: scale(1.8);}
+i:hover{ color: blue;    transition: transform 0.3s ease; transform: scale(1.8); }
+.col-4{font-size: larger;}
+button{background-color: rgba(137, 43, 226, 0.53); margin-top: 10px; margin-bottom: 20px;}
+button:hover{background-color: rgba(29, 8, 146, 0.441);}
